@@ -2,7 +2,7 @@ import requests
 import csv
 import datetime as dt
 
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAE9LcwEAAAAAgrJYgHGgptp%2FPZL0cJQGmamTB3o%3DVxR7V6oK6DhEKTj5DnDGEfT8FVX1P71laQyrH099WqeFvjJ5xO'
+BEARER_TOKEN = '<mytoken>'
 
 url = 'https://api.twitter.com/2/tweets/counts/recent'  # use twitter's 'recent' endpoint to avoid paying for this stuff
 headers = {'Authorization': f'Bearer {BEARER_TOKEN}'}   # replace <mytoken> with bearer token
